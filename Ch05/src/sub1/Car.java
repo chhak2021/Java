@@ -7,6 +7,8 @@ public class Car {
 	String color;
 	int speed;
 	
+	
+	
 	// 기능
 	public void speedUp(int speed) {
 		this.speed += speed;

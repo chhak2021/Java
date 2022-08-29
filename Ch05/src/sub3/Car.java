@@ -1,4 +1,4 @@
-package sub2;
+package sub3;
 
 public class Car {
 	
@@ -6,6 +6,7 @@ public class Car {
 	private String name;
 	private String color;
 	private int speed;
+	public static int count;
 	
 	// 생성자
 	public Car() {}
@@ -14,6 +15,7 @@ public class Car {
 		this.name = name;
 		this.color = color;
 		this.speed = speed;
+		count++;
 	}
 	
 	// Getter, Setter
